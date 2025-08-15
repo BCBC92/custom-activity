@@ -40,6 +40,7 @@ app.post('/execute', (req, res) => {
   res.status(200).send({ success: true });
 });
 
-app.listen(10000, () => {
-  console.log('Custom Activity listening on port 10000');
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Custom Activity listening on port ${PORT}`);
 });
