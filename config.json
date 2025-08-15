@@ -24,6 +24,9 @@
     }
   },
   "configurationArguments": {
+    "save": {
+      "url": "https://custom-activity-ubrc.onrender.com/save"
+    },
     "publish": {
       "url": "https://custom-activity-ubrc.onrender.com/publish"
     },
